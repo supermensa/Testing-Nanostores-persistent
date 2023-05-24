@@ -1,0 +1,10 @@
+[functions]
+directory = "dist/functions"
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "dist/functions"
+[[headers]]
+  for = "/*"
+  [headers.values]
+  Cache-Control = "no-cache, no-store, must-revalidate, max-age=0"

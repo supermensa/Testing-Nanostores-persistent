@@ -1,0 +1,21 @@
+{
+  "name": "github-test",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^2.2.3",
+    "@astrojs/vue": "^2.2.0",
+    "@nanostores/persistent": "nanostores/persistent#fix/bfcache",
+    "@nanostores/vue": "^0.8.2",
+    "astro": "^2.5.5",
+    "nanostores": "^0.8.1",
+    "vue": "^3.3.4"
+  }
+}
